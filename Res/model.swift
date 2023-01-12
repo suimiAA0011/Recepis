@@ -39,7 +39,7 @@ class ArrayModificationViewModel1 : ObservableObject {
         var tempList = [Likes]()
         
         tempList.append(Likes(id:4,name: "buche-de-noel",image: "buche-de-noel", isFaved: true))
-        tempList.append(Likes(id:1,name: "creamy-tuscan-chicken‏", image: "creamy-tuscan-chicken‏", isFaved: true))
+        tempList.append(Likes(id:1,name: "creamy tuscan chicken‏", image: "creamy-tuscan-chicken‏", isFaved: true))
         tempList.append(Likes(id:2,name: "pasta", image: "pasta", isFaved: false))
         tempList.append(Likes(id:3,name: "cake",image: "cake", isFaved: true))
         tempList.append(Likes(id:5,name: "baked-gnocchi", image: "baked-gnocchi", isFaved: false))

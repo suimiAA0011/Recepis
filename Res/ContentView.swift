@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @FetchRequest(sortDescriptors: []) var info : FetchedResults<Likess>
     @StateObject private var vm1 = ViewModel()
     
 
@@ -58,7 +58,7 @@ struct ContentView: View {
                             Picker(selection: $selected, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
                                 Text("Menu").tag(1)
                                 Text("Favorite").tag(2)
-                                Text("My Recipes ").tag(3)
+                                Text("MyRecipes").tag(3)
                             }.pickerStyle(.segmented)
                                 .padding(.vertical, 10.0)
                                 .padding(.top, 45.0)

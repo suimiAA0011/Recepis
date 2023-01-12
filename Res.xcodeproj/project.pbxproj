@@ -21,6 +21,10 @@
 		3844E346296E660F00736456 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3844E345296E660F00736456 /* model.swift */; };
 		38CED586296FBF7C003110D3 /* addMyRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CED585296FBF7C003110D3 /* addMyRecipes.swift */; };
 		38CED588296FBFC6003110D3 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CED587296FBFC6003110D3 /* Recipe.swift */; };
+		38CED590296FDF3C003110D3 /* RecipesData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38CED58E296FDF3C003110D3 /* RecipesData.xcdatamodeld */; };
+		38CED592296FDFE3003110D3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CED591296FDFE3003110D3 /* DataController.swift */; };
+		38CED595296FE6DC003110D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38CED597296FE6DC003110D3 /* Localizable.strings */; };
+		38CED599296FEB98003110D3 /* TEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CED598296FEB98003110D3 /* TEST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		3844E345296E660F00736456 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		38CED585296FBF7C003110D3 /* addMyRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMyRecipes.swift; sourceTree = "<group>"; };
 		38CED587296FBFC6003110D3 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		38CED58F296FDF3C003110D3 /* RecipesData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipesData.xcdatamodel; sourceTree = "<group>"; };
+		38CED591296FDFE3003110D3 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		38CED596296FE6DC003110D3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38CED598296FEB98003110D3 /* TEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		3832156E296BCA9800D8C127 = {
 			isa = PBXGroup;
 			children = (
+				38CED597296FE6DC003110D3 /* Localizable.strings */,
 				38321579296BCA9900D8C127 /* Res */,
 				38321578296BCA9900D8C127 /* Products */,
 			);
@@ -74,12 +83,15 @@
 			children = (
 				3832157A296BCA9900D8C127 /* ResApp.swift */,
 				3832157C296BCA9900D8C127 /* ContentView.swift */,
+				38CED598296FEB98003110D3 /* TEST.swift */,
 				3844E2E8296DE69A00736456 /* splash.swift */,
 				3844E2EA296DE9F600736456 /* Favorites.swift */,
 				3844E2EC296DF51800736456 /* MyRecipes.swift */,
 				3844E2E4296DCAD900736456 /* File.swift */,
 				3844E339296E628F00736456 /* Database.swift */,
 				3844E341296E659D00736456 /* Database.swift */,
+				38CED58E296FDF3C003110D3 /* RecipesData.xcdatamodeld */,
+				38CED591296FDFE3003110D3 /* DataController.swift */,
 				3844E343296E65BE00736456 /* Content_ViewModel.swift */,
 				3844E345296E660F00736456 /* model.swift */,
 				3844E2E6296DE1F900736456 /* Recipes.swift */,
@@ -141,6 +153,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 3832156E296BCA9800D8C127;
 			productRefGroup = 38321578296BCA9900D8C127 /* Products */;
@@ -158,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38321582296BCA9900D8C127 /* Preview Assets.xcassets in Resources */,
+				38CED595296FE6DC003110D3 /* Localizable.strings in Resources */,
 				3832157F296BCA9900D8C127 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,12 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CED590296FDF3C003110D3 /* RecipesData.xcdatamodeld in Sources */,
 				3844E2E9296DE69A00736456 /* splash.swift in Sources */,
+				38CED599296FEB98003110D3 /* TEST.swift in Sources */,
 				3832157D296BCA9900D8C127 /* ContentView.swift in Sources */,
 				3844E2E5296DCAD900736456 /* File.swift in Sources */,
 				38CED588296FBFC6003110D3 /* Recipe.swift in Sources */,
 				3844E2EB296DE9F600736456 /* Favorites.swift in Sources */,
 				3844E2ED296DF51800736456 /* MyRecipes.swift in Sources */,
+				38CED592296FDFE3003110D3 /* DataController.swift in Sources */,
 				3844E346296E660F00736456 /* model.swift in Sources */,
 				38CED586296FBF7C003110D3 /* addMyRecipes.swift in Sources */,
 				3832157B296BCA9900D8C127 /* ResApp.swift in Sources */,
@@ -185,6 +202,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38CED597296FE6DC003110D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CED596296FE6DC003110D3 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38321583296BCA9900D8C127 /* Debug */ = {
@@ -379,6 +407,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38CED58E296FDF3C003110D3 /* RecipesData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38CED58F296FDF3C003110D3 /* RecipesData.xcdatamodel */,
+			);
+			currentVersion = 38CED58F296FDF3C003110D3 /* RecipesData.xcdatamodel */;
+			path = RecipesData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3832156F296BCA9800D8C127 /* Project object */;
 }

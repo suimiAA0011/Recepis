@@ -55,8 +55,8 @@ struct Recipe: View {
                             .position(x:380,y:360)
                             .foregroundColor(.red)
                                 ScrollView {
-                                    Text("""
-                        "Make the Chocolate Whipped Cream
+                                    Text(LocalizedStringKey("""
+                        Make the Chocolate Whipped Cream
                         Whip the cream, confectioners' sugar, cocoa, and vanilla until peaks form. Refrigerate until ready to use.
 
                                            Make the Cake Batter
@@ -67,7 +67,7 @@ struct Recipe: View {
 
                                            Fill the Cake
                                            Unroll the cooled cake and fill it with chocolate whipped cream. Roll it back up and refrigerate. Dust with confectioners' sugar or decorate the cake before serving.
-                        """
+                        """)
                         )
                         .frame(width: 365, height: 500)
                         .background(Color.black.opacity(0.05))

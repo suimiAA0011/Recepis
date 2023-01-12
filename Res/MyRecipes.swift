@@ -10,12 +10,18 @@ import SwiftUI
 struct MyRecipes: View {
     @State var isshownhomee:Bool=false
     @State private var showingPopover :Bool = false
+   
+    
+    let recips = [
+        Recip(name: "Sushi"),
+        Recip(name: "Korean ramen")
+        ]
     var body: some View {
         
            
         ZStack {
             
-                 List(0..<2) { item in
+                 List(recips) { recip in
                              ZStack {
                                  RoundedRectangle(cornerRadius: 25).fill(.white)
                                      .frame(width: 300, height:100)
@@ -32,7 +38,7 @@ struct MyRecipes: View {
                                      Button(action: {
                                          showingPopover.toggle()
                                      }) {
-                                         Text("item").foregroundColor(.black)
+                                         Text(LocalizedStringKey(recip.name)).foregroundColor(.black)
                                      }
                                  }.padding(.leading,-13)
                                  
@@ -55,9 +61,18 @@ struct MyRecipes: View {
                 .background(Color(red: 0.914, green: 0.742, blue: 0.225))
                 .cornerRadius(10.0)
             }.position(x:280,y:450)
+                .fullScreenCover(isPresented:$isshownhomee ){
+addMyRecipes()
+                      }
         }
     }
 }
+
+struct Recip : Identifiable {
+    let id = UUID()
+    let name: String
+}
+
 
 struct MyRecipes_Previews: PreviewProvider {
     static var previews: some View {

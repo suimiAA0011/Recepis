@@ -71,7 +71,7 @@ struct Recipes: View {
                                         Spacer()
                                         
                                         
-                                            Text(recipe.name)
+                                            Text(LocalizedStringKey(recipe.name))
                                                 
                                                 .foregroundColor(.black)
                                         Spacer()

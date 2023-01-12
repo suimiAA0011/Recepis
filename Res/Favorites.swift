@@ -30,8 +30,8 @@ struct Favorites: View {
                                     .clipShape(Circle())
                                     .shadow(radius: 1)
                                     .overlay(Circle().stroke(Color.black, lineWidth: 1))
-                                
-                                Text(item.name)
+                                Spacer()
+                                Text(LocalizedStringKey(item.name))
                                 Spacer()
                                 Image(systemName:  vm.contains(item) ? "heart.fill" :"heart")
                                     .foregroundColor(.red)

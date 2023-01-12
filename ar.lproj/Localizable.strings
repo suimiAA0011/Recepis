@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  Res
+
+  Created by Salma on 12/01/2023.
+  
+*/
+
+"Menu" = "القائمة";
+"Favorite" = "المفضلة";
+"MyRecipes" = "وصفاتي";
+"buche-de-noel" = "كعكة الميلاد";
+"Make the Chocolate Whipped Cream
+                                           Whip the cream, confectioners' sugar, cocoa, and vanilla until peaks form. Refrigerate until ready to use.
+
+                                                              Make the Cake Batter
+                                                              Beat the egg yolks and sugar until the yolks are pale. Add the cocoa powder, vanilla, and salt. In a separate bowl, whip egg yolks until soft peaks form, then add the sugar and beat until stiff peaks form. Fold the yolk mixture into the egg white mixture. Spread the batter onto a parchment-lined jelly roll pan.
+
+                                                              Bake and Roll
+                                                              Bake until the cake springs back when touched, then turn it out on a confectioners' sugar-coated dish towel. Roll the cake up with the towel and let it cool for 30 minutes.
+
+                                                              Fill the Cake
+                                                              Unroll the cooled cake and fill it with chocolate whipped cream. Roll it back up and refrigerate. Dust with confectioners' sugar or decorate the cake before serving." = "اصنع الكريمة المخفوقة بالشوكولاتة
+ تُخفق الكريمة وسكر الحلويات والكاكاو والفانيليا حتى تتشكل القمم. ضعه في الثلاجة حتى يصبح جاهزًا للاستخدام.
+
+                                                               اصنع خليط الكيك
+                                                               يخفق صفار البيض والسكر حتى يصبح الصفار شاحبًا. أضف مسحوق الكاكاو والفانيليا والملح. في وعاء منفصل ، اخفقي صفار البيض حتى تتكون قمم ناعمة ، ثم أضيفي السكر واخفقي حتى تتشكل قمم صلبة. يُمزج مزيج الصفار مع مزيج بياض البيض. انشر الخليط في صينية مبطنة بورق الهلام.
+
+                                                               خبز و رول
+                                                               اخبزي حتى تعود الكعكة مرة أخرى عند لمسها ، ثم اقلبها على منشفة أطباق مغطاة بالسكر للحلوانيين. لف الكيك بالمنشفة واتركه يبرد لمدة 30 دقيقة.
+
+                                                               املأ الكعكة
+- [x]                                                                انشر الكيك المبرد واملأه بالكريمة المخفوقة بالشوكولاتة. لفه احتياطيًا ثم ضعه في الثلاجة. يُرش سكر الحلويات أو يُزين الكيك قبل التقديم
+";
+
+"creamy tuscan chicken‏" = " دجاج كريمي توسكان" ;
+"pasta" = "معكرونة";
+"cake" = "كيك";
+"baked-gnocchi" = "خبز النوكي";
+"Sushi" = "سوشي";
+"Korean ramen" = "رامن كوري";
+"add Recipe" = "اضافة وصفة";
+"SAVE" = "حفظ";
+"Type your recpie:" = "ادخل وصفتك" ;
+"Bûche de Noël" = "كعكة الميلاد" ;
+"Search..." = "بحث..." ;
