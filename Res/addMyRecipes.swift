@@ -9,6 +9,8 @@ import SwiftUI
 
 struct addMyRecipes: View {
     @State private var recipes = ""
+    @State private var showing :Bool = false
+   
 
     var body: some View {
        // VStack {
@@ -24,12 +26,15 @@ struct addMyRecipes: View {
                                     . edgesIgnoringSafeArea ( .all )
                 
                 Button(action:{
-                    buttonPressed()
+                    showing.toggle()
                 }) {Image(systemName: "chevron.backward")
                         .foregroundColor(Color(red: 0.914, green: 0.742, blue: 0.225))
                 }
                 .padding(.trailing,350)
                 .padding(.bottom, 700)
+                .fullScreenCover(isPresented:$showing ){
+MyRecipes()
+                      }
                 
                 
                 TextField("Type your recpie:" , text:$recipes)
