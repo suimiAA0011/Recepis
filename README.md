@@ -7,21 +7,24 @@
 
 # Big Idea
 
-Make an inclusive solution that helps people identifying colors
+Make an inclusive solution that help people who's interested in cooking
+
 
 # Challenge Statement
 
-helping people who are struggling with finding and identifying colors
+provide cooking guide for people who's interested in cooking
 
 # Solution Concept
 
-An app for people who have hard time identifying colors and wishes there was a way to specify and save colors from real life so that they have reference palette
+Build a platform  to guide people who want to cook in an easy matter and help them to get their meals done in an exciting and clear procedures
+
 
 # Used Technologies
 
 CoreData
 Accessibility (Voice over)
 UIKit
+CloudKit
 
 # Tools
 
