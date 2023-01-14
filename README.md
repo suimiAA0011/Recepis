@@ -21,19 +21,19 @@ Build a platform  to guide people who want to cook in an easy matter and help t
 
 # Used Technologies
 
-CoreData
-Accessibility (Voice over)
-UIKit
-CloudKit
+- CoreData
+* Accessibility (Voice over)
++ UIKit
+- CloudKit
 
 # Tools
 
-Xcode
-SwiftUI
-Sketch
+- Xcode
+- SwiftUI
+- Sketch
 
 # Demo
-App Demo https://drive.google.com/drive/folders/1Dj1JDyi33JoEz0pLXOB0XJObDy2CVVx6?usp=sharing
+[App Demo](https://drive.google.com/drive/folders/1Dj1JDyi33JoEz0pLXOB0XJObDy2CVVx6?usp=sharing)
 
 # Challenge Summary
 <img width="757" alt="Screenshot 2023-01-14 at 10 52 50 PM" src="https://user-images.githubusercontent.com/66141757/212493755-7aa48807-5313-4914-8f11-41c1709f3635.png">
